@@ -3,6 +3,9 @@ import { N0, N200, B600 } from 'unify-token/build/v2/colors';
 
 export const LayoutStyle = css`
   background: ${N0};
+  justify-content: center;
+  display: flex;
+  align-items: center;
 `;
 
 export const HeaderStyle = css`
@@ -52,4 +55,9 @@ export const Feature = css`
   align-items: center;
   background: ${B600};
   justify-content: center;
+`;
+
+export const FlipCamera = css`
+  position: absolute;
+  font-size: 24px;
 `;
